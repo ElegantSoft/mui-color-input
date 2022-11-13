@@ -112,7 +112,7 @@ const ColorSpace = (props: ColorSpaceProps) => {
         aria-label="Color space thumb"
         className={isActive ? 'MuiColorInput-Thumb-active' : ''}
         style={{
-          left: `${saturationInPercent}%`,
+          right: `${saturationInPercent}%`,
           bottom: `${valueInPercent}%`
         }}
       />
