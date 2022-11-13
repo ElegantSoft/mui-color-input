@@ -25,6 +25,8 @@ const Styled = {
       boxSizing: 'border-box',
       willChange: 'left, bottom',
       transition: 'box-shadow 150ms cubic-bezier(0.4, 0, 0.2, 1) 0ms',
+      transform: 'scaleX(-1)',
+
 
       '&:hover': {
         boxShadow: `0px 0px 0px 4px rgba(255 255 255 / 0.16)`
